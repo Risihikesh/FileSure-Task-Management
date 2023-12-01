@@ -1,0 +1,116 @@
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.2s ease-in-out; /* Add a subtle scale animation */
+}
+
+li:hover {
+  transform: scale(1.02); /* Scale up on hover */
+}
+
+strong {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #d9534f; 
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.2s ease-in-out; 
+}
+
+button:hover {
+  background-color: #c9302c;
+}
+
+div {
+  margin-top: 10px;
+}
+
+
+
+
+.task-list-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.total-tasks {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.task-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.task-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.task-buttons {
+  margin-top: 10px;
+}
+
+.delete-button {
+  background-color: #d9534f;
+  color: #fff;
+}
+
+.delete-button:hover {
+  background-color: #d9534f;
+  opacity: 0.8; 
+}
+
+.update-button {
+  background-color: #5bc0de;
+  color: #fff;
+}
+
+.button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
